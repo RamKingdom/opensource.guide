@@ -1,4 +1,91 @@
----
-layout: index
-lang: en
----
+Hello sir, 
+
+I installed OpenFOAM-v1912 and compiled FPVFoam-v1912. While running tutorial case (FPVBuoyantFoamv1912) I faced following issue. I want your suggestions and guidance to fix this issue.
+
+I also noticed that flemelet csv file is named as Table_0.0.csv which should be renamed as Table_0.csv.0/g file is missing from 0 folder even though it is FPVBuoyantFoamv1912 case.
+
+
+
+--> FOAM Warning :
+    From function Foam::scalar Foam::janafThermo<EquationOfState>::limit(Foam::scalar) const [with EquationOfState = Foam::perfectGas<Foam::specie>; Foam::scalar = double]
+    in file /home/raam/OpenFOAM/OpenFOAM-v1912/src/thermophysicalModels/specie/lnInclude/janafThermoI.H at line 119
+    attempt to use janafThermo<EquationOfState> out of temperature range 298 -> 5000;  T = -9120.5057
+--> FOAM Warning :
+    From function Foam::scalar Foam::janafThermo<EquationOfState>::limit(Foam::scalar) const [with EquationOfState = Foam::perfectGas<Foam::specie>; Foam::scalar = double]
+    in file /home/raam/OpenFOAM/OpenFOAM-v1912/src/thermophysicalModels/specie/lnInclude/janafThermoI.H at line 119
+    attempt to use janafThermo<EquationOfState> out of temperature range 298 -> 5000;  T = -12229.282
+--> FOAM Warning :
+    From function Foam::scalar Foam::janafThermo<EquationOfState>::limit(Foam::scalar) const [with EquationOfState = Foam::perfectGas<Foam::specie>; Foam::scalar = double]
+    in file /home/raam/OpenFOAM/OpenFOAM-v1912/src/thermophysicalModels/specie/lnInclude/janafThermoI.H at line 119
+    attempt to use janafThermo<EquationOfState> out of temperature range 298 -> 5000;  T = -12212.319
+--> FOAM Warning :
+    From function Foam::scalar Foam::janafThermo<EquationOfState>::limit(Foam::scalar) const [with EquationOfState = Foam::perfectGas<Foam::specie>; Foam::scalar = double]
+    in file /home/raam/OpenFOAM/OpenFOAM-v1912/src/thermophysicalModels/specie/lnInclude/janafThermoI.H at line 119
+    attempt to use janafThermo<EquationOfState> out of temperature range 298 -> 5000;  T = -774.20075
+--> FOAM Warning :
+    From function Foam::scalar Foam::janafThermo<EquationOfState>::limit(Foam::scalar) const [with EquationOfState = Foam::perfectGas<Foam::specie>; Foam::scalar = double]
+    in file /home/raam/OpenFOAM/OpenFOAM-v1912/src/thermophysicalModels/specie/lnInclude/janafThermoI.H at line 119
+    attempt to use janafThermo<EquationOfState> out of temperature range 298 -> 5000;  T = -774.15778
+--> FOAM Warning :
+    From function Foam::scalar Foam::janafThermo<EquationOfState>::limit(Foam::scalar) const [with EquationOfState = Foam::perfectGas<Foam::specie>; Foam::scalar = double]
+    in file /home/raam/OpenFOAM/OpenFOAM-v1912/src/thermophysicalModels/specie/lnInclude/janafThermoI.H at line 119
+    attempt to use janafThermo<EquationOfState> out of temperature range 298 -> 5000;  T = -20823.935
+--> FOAM Warning :
+    From function Foam::scalar Foam::janafThermo<EquationOfState>::limit(Foam::scalar) const [with EquationOfState = Foam::perfectGas<Foam::specie>; Foam::scalar = double]
+    in file /home/raam/OpenFOAM/OpenFOAM-v1912/src/thermophysicalModels/specie/lnInclude/janafThermoI.H at line 119
+    attempt to use janafThermo<EquationOfState> out of temperature range 298 -> 5000;  T = -20774.883
+--> FOAM Warning :
+    From function Foam::scalar Foam::janafThermo<EquationOfState>::limit(Foam::scalar) const [with EquationOfState = Foam::perfectGas<Foam::specie>; Foam::scalar = double]
+    in file /home/raam/OpenFOAM/OpenFOAM-v1912/src/thermophysicalModels/specie/lnInclude/janafThermoI.H at line 119
+    attempt to use janafThermo<EquationOfState> out of temperature range 298 -> 5000;  T = -26868.087
+--> FOAM Warning :
+    From function Foam::scalar Foam::janafThermo<EquationOfState>::limit(Foam::scalar) const [with EquationOfState = Foam::perfectGas<Foam::specie>; Foam::scalar = double]
+    in file /home/raam/OpenFOAM/OpenFOAM-v1912/src/thermophysicalModels/specie/lnInclude/janafThermoI.H at line 119
+    attempt to use janafThermo<EquationOfState> out of temperature range 298 -> 5000;  T = -26786.66
+--> FOAM Warning :
+    From function Foam::scalar Foam::janafThermo<EquationOfState>::limit(Foam::scalar) const [with EquationOfState = Foam::perfectGas<Foam::specie>; Foam::scalar = double]
+    in file /home/raam/OpenFOAM/OpenFOAM-v1912/src/thermophysicalModels/specie/lnInclude/janafThermoI.H at line 119
+    attempt to use janafThermo<EquationOfState> out of temperature range 298 -> 5000;  T = -17636.526
+--> FOAM Warning :
+    From function Foam::scalar Foam::janafThermo<EquationOfState>::limit(Foam::scalar) const [with EquationOfState = Foam::perfectGas<Foam::specie>; Foam::scalar = double]
+    in file /home/raam/OpenFOAM/OpenFOAM-v1912/src/thermophysicalModels/specie/lnInclude/janafThermoI.H at line 119
+    attempt to use janafThermo<EquationOfState> out of temperature range 298 -> 5000;  T = -17601.293
+--> FOAM Warning :
+    From function Foam::scalar Foam::janafThermo<EquationOfState>::limit(Foam::scalar) const [with EquationOfState = Foam::perfectGas<Foam::specie>; Foam::scalar = double]
+    in file /home/raam/OpenFOAM/OpenFOAM-v1912/src/thermophysicalModels/specie/lnInclude/janafThermoI.H at line 119
+    attempt to use janafThermo<EquationOfState> out of temperature range 298 -> 5000;  T = -33933.917
+
+
+--> FOAM Warning :
+    From function Foam::scalar Foam::janafThermo<EquationOfState>::limit(Foam::scalar) const [with EquationOfState = Foam::perfectGas<Foam::specie>; Foam::scalar = double]
+    in file /home/raam/OpenFOAM/OpenFOAM-v1912/src/thermophysicalModels/specie/lnInclude/janafThermoI.H at line 119
+    attempt to use janafThermo<EquationOfState> out of temperature range 298 -> 5000;  T = -1104.0601
+--> FOAM Warning :
+    From function Foam::scalar Foam::janafThermo<EquationOfState>::limit(Foam::scalar) const [with EquationOfState = Foam::perfectGas<Foam::specie>; Foam::scalar = double]
+    in file /home/raam/OpenFOAM/OpenFOAM-v1912/src/thermophysicalModels/specie/lnInclude/janafThermoI.H at line 119
+    attempt to use janafThermo<EquationOfState> out of temperature range 298 -> 5000;  T = -1103.95
+--> FOAM Warning :
+    From function Foam::scalar Foam::janafThermo<EquationOfState>::limit(Foam::scalar) const [with EquationOfState = Foam::perfectGas<Foam::specie>; Foam::scalar = double]
+    in file /home/raam/OpenFOAM/OpenFOAM-v1912/src/thermophysicalModels/specie/lnInclude/janafThermoI.H at line 119
+    attempt to use janafThermo<EquationOfState> out of temperature range 298 -> 5000;  T = 104.83858
+--> FOAM Warning :
+    From function Foam::scalar Foam::janafThermo<EquationOfState>::limit(Foam::scalar) const [with EquationOfState = Foam::perfectGas<Foam::specie>; Foam::scalar = double]
+    in file /home/raam/OpenFOAM/OpenFOAM-v1912/src/thermophysicalModels/specie/lnInclude/janafThermoI.H at line 119
+    attempt to use janafThermo<EquationOfState> out of temperature range 298 -> 5000;  T = 106.40688
+----------> T min/max =298, 5000
+----------> psi min/max =-0.020573323, 0.0011768283
+----------> rho min/max =-6.29825e+10, 4.6531448e+10
+----------> mu min/max =-1.357838, 1.6564561
+DICPCG:  Solving for p_rgh, Initial residual = 1, Final residual = 1.3443306e-06, No Iterations 1
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = -5.0469114e+09, global = -4.1090356e+09, cumulative = -4.1090356e+09
+DICPCG:  Solving for p_rgh, Initial residual = 0.99899523, Final residual = 40286.211, No Iterations 1000
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 8.7656838e+16, global = 1.7334671e+10, cumulative = 1.3225635e+10
+DILUPBiCG:  Solving for k, Initial residual = 1, Final residual = 0.0007545743, No Iterations 5
+bounding k, min: -1.3784249e+77 max: 9.0219272e+74 average: -5.3703923e+71
+PIMPLE: iteration 5
+DILUPBiCG:  Solving for Ux, Initial residual = 0.9960892, Final residual = 0.27094792, No Iterations 1000
+DILUPBiCG:  Solving for Uy, Initial residual = 0.94319962, Final residual = 0.036079505, No Iterations 1000
+^C
+ 
